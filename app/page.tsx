@@ -54,7 +54,7 @@ export default function AnimatedEvent() {
           {/* Screen 2: Main Text */}
           {screen === 2 && (
             <h1 className="animate-fade-in text-6xl font-bold text-white">
-              Free MAR<br />Aur Dawat<br />toh Bhana<br />Hein Aslii<br />Baat toh
+              Free MAR<br />Aur Dawat<br />toh Bahana<br />Hein Aslii<br />Baat toh
             </h1>
           )}
 
