@@ -42,27 +42,27 @@ export default function AnimatedEvent() {
         }}>
           {/* Screen 1: Loading */}
           {screen === 1 && (
-  <Image
-    src="/load.gif"
-    alt="Loading animation"
-    width={640}
-    height={640}
-    className="mx-auto"
-  />
-)}
+            <Image
+              src="/load.gif"
+              alt="Loading animation"
+              width={640}
+              height={640}
+              className="mx-auto"
+            />
+          )}
 
           {/* Screen 2: Main Text */}
           {screen === 2 && (
             <h1 className="animate-fade-in text-6xl font-bold text-white">
-              Free Mar<br/>Aur Dawat<br/>toh bhana<br/>thaa asal<br/>baat
+              Free MAR<br />Aur Dawat<br />toh Bhana<br />Hein Aslii<br />Baat toh
             </h1>
           )}
-          
+
 
           {/* Screen 3: Date */}
           {screen === 3 && (
             <div className="animate-fade-in space-y-4 text-white">
-              <p className="text-xl font-bold tracking-wider sm:text-4xl">See you there on<br/>{date}</p>
+              <p className="text-xl font-bold tracking-wider sm:text-4xl">See you there on<br />{date}</p>
             </div>
           )}
 
@@ -81,7 +81,7 @@ export default function AnimatedEvent() {
             </div>
           )}
         </div>
-        </div>
+      </div>
     </div>
   )
 }
